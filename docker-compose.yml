@@ -2,7 +2,7 @@
 version: "3"
 services:
   web:
-    image: fmanid/hello-react:latest
+    image: fmanid/docker-react:latest
     container_name: web
     restart: unless-stopped
     ports:
