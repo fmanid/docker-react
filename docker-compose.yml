@@ -1,0 +1,9 @@
+
+version: "3"
+services:
+  web:
+    image: fmanid/hello-react:latest
+    container_name: web
+    restart: unless-stopped
+    ports:
+      - 80:80
